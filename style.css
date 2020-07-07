@@ -28,7 +28,7 @@ h1 {
   color: white;
   padding: 1.5rem 2.5rem;
   /* Moves up the title to prevent a white line at the top */
-  margin: 0 0 2rem 0;
+  margin: 0 0 0 0;
   font-size: 1.5rem;
   background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
 }
@@ -43,10 +43,8 @@ p {
 
 .animal {
   display: block;
-  margin: 1rem auto;
-  width: 200px;
-  height: 200px;
-  border-radius: 12px;
+  width: 100%;
+  border-radius: 0 0 12px 12px;
 }
 
 .card {
@@ -58,6 +56,7 @@ p {
   overflow: hidden;
   /* Delays transition speed */
   transition: all .2s linear;
+  max-width: 360px;
 }
 
 .card:hover {
